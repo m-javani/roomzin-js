@@ -1,0 +1,10 @@
+# .npmignore
+src/
+test/
+*.ts
+!*.d.ts
+tsconfig.json
+.github/
+.gitignore
+README*.md
+LICENSE
