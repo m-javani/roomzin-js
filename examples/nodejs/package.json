@@ -1,0 +1,16 @@
+{
+  "name": "roomzin-js-example",
+  "version": "1.0.0",
+  "description": "Roomzin Node.js SDK example",
+  "scripts": {
+    "start": "tsx smoke.ts"
+  },
+  "dependencies": {
+    "roomzin-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.23.1",
+    "typescript": "^5.8.3"
+  }
+}

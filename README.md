@@ -426,6 +426,35 @@ For the complete interface definition, see [`src/api/client.ts`](src/api/client.
 
 ---
 
+## Examples
+
+Check out the [`examples/nodejs/`](examples/nodejs/) directory for a complete runnable example project.
+
+### Quick Start
+
+1. Clone this repository or copy the `examples/nodejs/` directory
+2. Update the configuration in `smoke.ts`:
+   - Change `MODE` to `"standalone"` or `"cluster"`
+   - Update `STATIC_DISCOVERY` with your cluster node IPs
+   - Adjust `STANDALONE_HOST` and `STANDALONE_PORT` if needed
+   - Update `TOKEN` to match your Roomzin configuration
+3. Run the example:
+   ```bash
+   cd examples/nodejs
+   npm install
+   npm start
+   ```
+
+The example demonstrates all major API operations:
+- Property creation and management
+- Room package setup
+- Availability updates (set, increment, decrement)
+- Search and query
+- Delete operations
+
+---
+
+
 ## Documentation
 
 For Roomzin concepts, deployment, and administration:
