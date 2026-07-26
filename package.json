@@ -1,6 +1,6 @@
 {
   "name": "roomzin-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Roomzin Client SDK for Node.js and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,5 +30,12 @@
   "homepage": "https://github.com/m-javani/roomzin-js#readme",
   "bugs": {
     "url": "https://github.com/m-javani/roomzin-js/issues"
+  },
+  "dependencies": {
+    "async-mutex": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.8.3"
   }
 }
